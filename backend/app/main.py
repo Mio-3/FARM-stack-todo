@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.database import check_db_connection
 from app.routes import todo
+from contextlib import asynccontextmanager
 
 app = FastAPI(
   title="Todo API",
@@ -10,9 +11,10 @@ app = FastAPI(
 )
 
 
-@app.on_event("startup")
-async def startup_event():
+@asynccontextmanager
+async def lifespan(app: FastAPI):
     await check_db_connection()
+    yield
 
 
 app.add_middleware(
