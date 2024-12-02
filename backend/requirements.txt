@@ -264,7 +264,7 @@ pkce @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_afkgd
 pkginfo @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_d976p03z5u/croot/pkginfo_1679431175529/work
 platformdirs @ file:///Users/ec2-user/ci_py311/platformdirs_1678315988118/work
 plotly @ file:///Users/ec2-user/ci_py311/plotly_1678382250051/work
-pluggy @ file:///Users/ec2-user/ci_py311/pluggy_1678315400971/work
+pluggy==1.5.0
 ply==3.11
 pooch @ file:///tmp/build/80754af9/pooch_1623324770023/work
 postgrest==0.16.10
@@ -310,7 +310,8 @@ pyparsing @ file:///Users/ec2-user/ci_py311/pyparsing_1678322828710/work
 PyQt5-sip==12.11.0
 pyrsistent @ file:///Users/ec2-user/ci_py311/pyrsistent_1678316053523/work
 PySocks @ file:///Users/ec2-user/ci_py311/pysocks_1678315868424/work
-pytest @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_7089yk6bfu/croot/pytest_1690474697638/work
+pytest==8.3.4
+pytest-asyncio==0.24.0
 python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
 python-dotenv==1.0.1
 python-json-logger @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_49p5x2bjzn/croot/python-json-logger_1683823814668/work
